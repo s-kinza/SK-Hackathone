@@ -1,17 +1,17 @@
 'use client'
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-import TopCategories from "./components/TopCategories";
-import LatestProducts from "./components/LatestProducts";
-import Feature from "./components/FeatureProduct";
-import Offers from "./components/Offers";
-import Unique from "./components/Unique";
-import TrendingProducts from "./components/TrendingProducts";
-import Discount from "./components/Discount";
-import BlogSection from "./components/BlogSection";
-import Newslater from "./components/Newslater";
+import Header from "./components/header";
+import Hero from "./components/hero";
+import Footer from "./components/footer";
+import TopCategories from "./components/topCategories";
+import LatestProducts from "./components/latestProducts";
+import Feature from "./components/featuredProducts";
+import Offers from "./components/offers";
+import Unique from "./components/unique";
+import TrendingProducts from "./components/trendingProducts";
+import Discount from "./components/discount";
+import BlogSection from "./components/blogSection";
+import Newslater from "./components/newsLatter";
 
 function Homepage(){
   return(

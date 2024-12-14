@@ -1,9 +1,10 @@
 'use client';
 
 import Image from 'next/image';
-import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin, FaStar, FaHandshake } from 'react-icons/fa'; // Added icons for sections
+import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin,  FaHandshake } from 'react-icons/fa'; // Added icons for sections
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Link from 'next/link';
 
 function CreatorPage() {
   return (
@@ -47,44 +48,44 @@ function CreatorPage() {
             </h2>
             <div className="mt-6 flex justify-center space-x-8 text-center text-2xl text-[#1D3178]">
               {/* Gmail */}
-              <a
+              <Link
                 href="mailto:muqaddasfatima576@gmail.com"
                 className="hover:text-[#FB2E86] transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaEnvelope />
-              </a>
+              </Link>
 
               {/* Instagram */}
-              <a
+              <Link
                 href="https://www.instagram.com/syeda_kinza04/"
                 className="hover:text-[#FB2E86] transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaInstagram />
-              </a>
+              </Link>
 
               {/* GitHub */}
-              <a
+              <Link
                 href="https://github.com/s-kinza"
                 className="hover:text-[#FB2E86] transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub />
-              </a>
+              </Link>
 
               {/* LinkedIn */}
-              <a
+              <Link
                 href="https://www.linkedin.com/in/kanzul-eeman-ab3a41333/"
                 className="hover:text-[#FB2E86] transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

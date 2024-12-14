@@ -2,8 +2,8 @@
 
 import Image from 'next/image';
 import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin, FaStar, FaHandshake } from 'react-icons/fa'; // Added icons for sections
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 function CreatorPage() {
   return (
@@ -58,7 +58,7 @@ function CreatorPage() {
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/muqaddas_fatime25/"
+                href="https://www.instagram.com/syeda_kinza04/"
                 className="hover:text-[#FB2E86] transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -68,7 +68,7 @@ function CreatorPage() {
 
               {/* GitHub */}
               <a
-                href="https://github.com/MuqaddasFatima24"
+                href="https://github.com/s-kinza"
                 className="hover:text-[#FB2E86] transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -78,7 +78,7 @@ function CreatorPage() {
 
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/muqaddas-fatima-6aaa0a2b3/"
+                href="https://www.linkedin.com/in/kanzul-eeman-ab3a41333/"
                 className="hover:text-[#FB2E86] transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
